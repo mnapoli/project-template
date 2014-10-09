@@ -1,27 +1,21 @@
 {
-    "name": "mnapoli/blackbox",
+    "name": "mnapoli/myproject",
     "license": "MIT",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "BlackBox\\": "src/"
+            "MyProject\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\BlackBox\\": "tests/"
+            "Tests\\MyProject\\": "tests/"
         }
     },
     "require": {
-        "php": ">=5.4",
-        "symfony/finder": "~2.5"
+        "php": ">=5.4"
     },
     "require-dev": {
-        "phpunit/phpunit": "~4.0",
-        "phpseclib/phpseclib": "*",
-        "symfony/yaml": "~2.5",
-        "predis/predis": "~1.0",
-        "doctrine/dbal": "~2.4",
-        "symfony/filesystem": "~2.5"
+        "phpunit/phpunit": "~4.0"
     }
 }

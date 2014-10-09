@@ -1,5 +1,8 @@
 {
     "name": "mnapoli/myproject",
+    "description": "Give it a nice description!",
+    "keywords": [],
+    "homepage": "http://example.com",
     "license": "MIT",
     "type": "library",
     "autoload": {

@@ -30,7 +30,7 @@ because the "Usage" section should contain examples.
 
 So here is how you can use this project as a basis for your own future repository:
 
-```
+```bash
 git clone https://github.com/mnapoli/project-template.git my-project
 cd my-project
 # Remove the git repository metadata

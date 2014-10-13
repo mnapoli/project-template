@@ -4,4 +4,6 @@ tools:
   php_analyzer: true
 
 filter:
-  excluded_paths: [tests/*]
+  excluded_paths:
+    - tests/*
+    - specs/*

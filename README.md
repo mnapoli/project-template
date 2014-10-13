@@ -22,7 +22,20 @@ source PHP projects. Of course, feel free to fork it and make your own recipe.
 
 Describe how to install the project/library/framework/…
 
-Make sure your installation instructions work by testing them!
+Make sure your installation instructions work by testing them! If your project use [Composer][1], we suggest to use this:
+
+The recommended way to install MyProject is through [Composer][1]:
+
+```json
+{
+    "require": {
+        "your/project": "@stable"
+    }
+}
+```
+
+__Protip:__ You should browse the [`your/project`][2] page to choose a stable version to use, avoid the `@stable` meta
+constraint.
 
 ## Usage
 
@@ -34,13 +47,15 @@ because the "Usage" section should contain examples.
 So here is how you can use this project as a basis for your own future repository:
 
 ```bash
-git clone https://github.com/mnapoli/project-template.git my-project
-cd my-project
+$ git clone https://github.com/mnapoli/project-template.git my-project
+$ cd my-project
+
 # Remove the git repository metadata
-rm -rf .git/
+$ rm -rf .git/
+
 # Start a brand new repository
-git init
-git add .
+$ git init
+$ git add .
 ```
 
 Easy peasy! Now you just have to code.
@@ -49,6 +64,22 @@ Make sure your examples work by testing them! I didn't test mine and I should fe
 
 ## License
 
-Come on, [choose a license](http://choosealicense.com/) already!
+Come on, [choose a license][3] already!
 
-For *this* project, I choose […drumroll…] the [Do What the Fuck You Want to Public License](http://www.wtfpl.net/).
+*This* project is released under […drumroll…] the [Do What the Fuck You Want to Public License][4].
+See the bundled LICENSE file for details.
+
+## Contributing
+
+See [CONTRIBUTING][5] file.
+
+## Credits
+
+This project is made by [*Place your name here*][6]
+
+[1]: https://getcomposer.org/
+[2]: https://packagist.org/packages/your/project
+[3]: http://choosealicense.com/
+[4]: http://www.wtfpl.net/
+[5]: CONTRIBUTING.md
+[6]: you@domain.tld

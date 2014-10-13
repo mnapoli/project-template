@@ -7,10 +7,13 @@ php:
   - hhvm
 
 before_script:
+  - composer self-update
+  - composer install --prefer-source --no-interaction
   - composer require satooshi/php-coveralls:dev-master --dev --no-progress --prefer-source
 
 script:
   - mkdir -p build/logs
+  - bin/phpspec run -v
   - phpunit --coverage-clover build/logs/clover.xml
 
 after_script:

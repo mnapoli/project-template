@@ -10,15 +10,10 @@
             "MyProject\\": "src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Tests\\MyProject\\": "tests/"
-        }
-    },
     "require": {
         "php": ">=5.4"
     },
     "require-dev": {
-        "phpunit/phpunit": "~4.0"
+        "phpspec/phpspec": "~2.0"
     }
 }

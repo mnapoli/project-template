@@ -5,5 +5,4 @@ tools:
 
 filter:
   excluded_paths:
-    - tests/*
-    - specs/*
+    - spec/*

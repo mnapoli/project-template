@@ -47,6 +47,10 @@ Easy peasy! Now you just have to code.
 
 Make sure your examples work by testing them! I didn't test mine and I should feel ashamed.
 
+## Contributing
+
+See the [CONTRIBUTING][CONTRIBUTING.md] file.
+
 ## License
 
 Come on, [choose a license](http://choosealicense.com/) already!

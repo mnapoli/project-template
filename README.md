@@ -2,11 +2,11 @@
 
 This is the catchphrase. Make it count.
 
-[![Build Status](https://travis-ci.org/mnapoli/PHP-DI.png?branch=master)](https://travis-ci.org/mnapoli/PHP-DI)
-[![Coverage Status](https://coveralls.io/repos/mnapoli/PHP-DI/badge.png?branch=master)](https://coveralls.io/r/mnapoli/PHP-DI?branch=master)
-[![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/mnapoli/PHP-DI/badges/quality-score.png)](https://scrutinizer-ci.com/g/mnapoli/PHP-DI/)
-[![Latest Stable Version](https://poser.pugx.org/mnapoli/php-di/v/stable.png)](https://packagist.org/packages/mnapoli/php-di)
-[![Total Downloads](https://poser.pugx.org/mnapoli/php-di/downloads.png)](https://packagist.org/packages/mnapoli/php-di)
+[![Build Status](https://img.shields.io/travis/mnapoli/PHP-DI.svg?style=flat-square)](https://travis-ci.org/mnapoli/PHP-DI)
+[![Coverage Status](https://img.shields.io/coveralls/mnapoli/PHP-DI/master.svg?style=flat-square)](https://coveralls.io/r/mnapoli/PHP-DI?branch=master)
+[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/mnapoli/PHP-DI.svg?style=flat-square)](https://scrutinizer-ci.com/g/mnapoli/PHP-DI/?branch=master)
+[![Latest Version](https://img.shields.io/github/release/mnapoli/PHP-DI.svg?style=flat-square)](https://packagist.org/packages/mnapoli/php-di)
+[![Total Downloads](https://img.shields.io/packagist/dt/mnapoli/PHP-DI.svg?style=flat-square)](https://packagist.org/packages/mnapoli/php-di)
 
 Here is an additional quick introduction, if necessary.
 

@@ -2,7 +2,7 @@
 
 This is the catchphrase. Make it count.
 
-[![Build Status](https://img.shields.io/travis/mnapoli/PHP-DI.svg?style=flat-square)](https://travis-ci.org/mnapoli/PHP-DI)
+[![Build Status](https://img.shields.io/travis/PHP-DI/PHP-DI.svg?style=flat-square)](https://travis-ci.org/PHP-DI/PHP-DI)
 [![Coverage Status](https://img.shields.io/coveralls/mnapoli/PHP-DI/master.svg?style=flat-square)](https://coveralls.io/r/mnapoli/PHP-DI?branch=master)
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/mnapoli/PHP-DI.svg?style=flat-square)](https://scrutinizer-ci.com/g/mnapoli/PHP-DI/?branch=master)
 [![Latest Version](https://img.shields.io/github/release/mnapoli/PHP-DI.svg?style=flat-square)](https://packagist.org/packages/mnapoli/php-di)

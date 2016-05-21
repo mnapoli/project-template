@@ -1,6 +1,6 @@
 # My Awesome Project
 
-This is the catchphrase. Make it count.
+This is the catchphrase: what does this project do and how is it unique?
 
 [![Build Status](https://img.shields.io/travis/PHP-DI/PHP-DI.svg?style=flat-square)](https://travis-ci.org/PHP-DI/PHP-DI)
 [![Coverage Status](https://img.shields.io/coveralls/PHP-DI/PHP-DI/master.svg?style=flat-square)](https://coveralls.io/r/PHP-DI/PHP-DI?branch=master)

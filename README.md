@@ -26,12 +26,12 @@ Make sure your installation instructions work by testing them!
 
 ## Usage
 
-Now let's describe how you can use this project!
+Describe how to use the project. A gif or a short code example is the best
+way to show how it works. Also keep paragraphs short and sentences simple: not
+everybody speaks english well.
 
-For the sake of the example, I will include an unnecessarily explicit code block
-because the "Usage" section should contain examples.
-
-So here is how you can use this project as a basis for your own future repository:
+For the sake of the example here is how you can use this project template
+as a basis for your own repository:
 
 ```bash
 git clone https://github.com/mnapoli/project-template.git my-project
@@ -53,6 +53,7 @@ See the [CONTRIBUTING](CONTRIBUTING.md) file.
 
 ## License
 
-Come on, [choose a license](http://choosealicense.com/) already!
+Come on, [choose a license](http://choosealicense.com/) already! If you don't know or don't
+care, the MIT license is the most widely used license.
 
 For *this* project, I choose […drumroll…] the [Do What the Fuck You Want to Public License](http://www.wtfpl.net/).

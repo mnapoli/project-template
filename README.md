@@ -47,7 +47,7 @@ Make sure your examples work by testing them! I didn't test mine and I should fe
 
 ## Contributing
 
-See the [CONTRIBUTING](CONTRIBUTING.md) file.
+See the [CONTRIBUTING](./.github/CONTRIBUTING.md) file.
 
 ## License
 

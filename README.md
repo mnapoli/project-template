@@ -44,14 +44,3 @@ git add .
 Easy peasy! Now you just have to code.
 
 Make sure your examples work by testing them! I didn't test mine and I should feel ashamed.
-
-## Contributing
-
-See the [CONTRIBUTING](./.github/CONTRIBUTING.md) file.
-
-## License
-
-Come on, [choose a license](http://choosealicense.com/) already! If you don't know or don't
-care, the MIT license is the most widely used license.
-
-For *this* project, I choose […drumroll…] the [Do What the Fuck You Want to Public License](http://www.wtfpl.net/).

@@ -20,6 +20,11 @@
     "require-dev": {
         "phpunit/phpunit": "^9.0",
         "mnapoli/hard-mode": "^0.3.0",
-        "phpstan/phpstan": "^0.12.0"
+        "phpstan/phpstan": "^1"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
     }
 }

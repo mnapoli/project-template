@@ -1,10 +1,16 @@
-# .gitattributes
-tests/ export-ignore
-.github/ export-ignore
-.gitattributes export-ignore
-.gitignore export-ignore
-.phpcs.xml export-ignore
-phpunit.xml export-ignore
+# Keep the dist archive down to what running the package needs.
+/.github            export-ignore
+/tests              export-ignore
+.editorconfig       export-ignore
+.gitattributes      export-ignore
+.gitignore          export-ignore
+CHANGELOG.md        export-ignore
+SECURITY.md         export-ignore
+phpstan.neon        export-ignore
+phpunit.xml         export-ignore
+pint.json           export-ignore
+rector.php          export-ignore
+rector-tests.php    export-ignore
 
 # Auto detect text files and perform LF normalization
 * text=auto

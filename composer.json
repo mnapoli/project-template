@@ -4,6 +4,18 @@
     "keywords": [],
     "license": "MIT",
     "type": "library",
+    "authors": [
+        {
+            "name": "Matthieu Napoli",
+            "email": "matthieu@mnapoli.fr"
+        }
+    ],
+    "funding": [
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/mnapoli"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "MyProject\\": "src/"
@@ -15,16 +27,32 @@
         }
     },
     "require": {
-        "php": ">=8.1"
+        "php": ">=8.4"
     },
     "require-dev": {
-        "phpunit/phpunit": "^10.5|^11|^12",
-        "mnapoli/hard-mode": "^0.3.0",
-        "phpstan/phpstan": "^1"
+        "phpunit/phpunit": "^11|^12",
+        "laravel/pint": "^1.24",
+        "phpstan/phpstan": "^2",
+        "rector/rector": "^2.0"
+    },
+    "scripts": {
+        "lint": [
+            "pint --parallel",
+            "rector"
+        ],
+        "test:lint": [
+            "pint --parallel --test",
+            "rector --dry-run"
+        ],
+        "test:types": "phpstan",
+        "test:unit": "phpunit",
+        "test": [
+            "@test:lint",
+            "@test:types",
+            "@test:unit"
+        ]
     },
     "config": {
-        "allow-plugins": {
-            "dealerdirect/phpcodesniffer-composer-installer": true
-        }
+        "sort-packages": true
     }
 }
